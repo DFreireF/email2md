@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import markdown
 import markdown2pdf
 import toml
+import argparse
 
 # Email configuration
 IMAP_SERVER = "email.gsi.de"
